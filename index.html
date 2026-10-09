@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kebijakan Privasi aplikasi AngkotKita — Sistem Pemesanan Angkutan Kota Sidoarjo. Informasi tentang pengumpulan, penggunaan, dan perlindungan data pengguna.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Reza Mandala Putra">
+    <meta property="og:title" content="Kebijakan Privasi — AngkotKita">
+    <meta property="og:description" content="Kebijakan Privasi aplikasi AngkotKita — Sistem Pemesanan Angkutan Kota Sidoarjo">
+    <meta property="og:type" content="website">
+    <title>Kebijakan Privasi — AngkotKita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            color: #334155;
+            line-height: 1.8;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
+            padding: 48px 24px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+        }
+        header h1 {
+            color: #1E293B;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            position: relative;
+            letter-spacing: -0.5px;
+        }
+        header .subtitle {
+            color: #78350F;
+            font-size: 15px;
+            font-weight: 500;
+            position: relative;
+        }
+        header .app-icon {
+            width: 64px;
+            height: 64px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 32px;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Container */
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+
+        /* Update Badge */
+        .update-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #FFFBEB;
+            border: 1px solid #FDE68A;
+            color: #92400E;
+            padding: 8px 18px;
+            border-radius: 24px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        .update-badge .dot {
+            width: 8px;
+            height: 8px;
+            background: #F59E0B;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* Headings */
+        h2 {
+            color: #1E293B;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 36px 0 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E2E8F0;
+            letter-spacing: -0.3px;
+        }
+        h3 {
+            color: #475569;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 22px 0 10px;
+        }
+
+        /* Text */
+        p { margin: 12px 0; font-size: 15px; }
+        ul { margin: 10px 0 10px 24px; }
+        li { margin: 6px 0; font-size: 15px; }
+        strong { color: #1E293B; }
+
+        /* Highlight Boxes */
+        .highlight {
+            background: #FFFBEB;
+            border-left: 4px solid #FBBF24;
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        .important {
+            background: #EFF6FF;
+            border-left: 4px solid #3B82F6;
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 16px 0;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .warning {
+            background: #FEF2F2;
+            border-left: 4px solid #EF4444;
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            background: #F1F5F9;
+            border: 1px solid #E2E8F0;
+            border-radius: 14px;
+            padding: 22px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        /* Links */
+        a { color: #D97706; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #B45309; }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        th {
+            background: #F8FAFC;
+            font-weight: 600;
+            color: #1E293B;
+        }
+        td { color: #475569; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #94A3B8;
+            font-size: 12px;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #E2E8F0;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px 40px; }
+            header { padding: 36px 16px; }
+            header h1 { font-size: 24px; }
+            h2 { font-size: 19px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="app-icon">🚐</div>
+    <h1>Kebijakan Privasi</h1>
+    <p class="subtitle">AngkotKita — Sistem Pemesanan Angkutan Kota Sidoarjo</p>
+</header>
+
+<div class="container">
+
+<div class="update-badge">
+    <span class="dot"></span>
+    Terakhir diperbarui: 9 Oktober 2026
+</div>
+
+<p>Aplikasi <strong>AngkotKita</strong> ("Aplikasi", "kami") adalah sistem pemesanan angkutan kota (Lyn Kuning) di Sidoarjo yang dikembangkan oleh <strong>Reza Mandala Putra</strong>. Kami berkomitmen melindungi privasi dan keamanan data pengguna.</p>
+
+<p>Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi Anda saat menggunakan Aplikasi kami.</p>
+
+<!-- ═══════════════════════════════ -->
+<h2>1. Data yang Kami Kumpulkan</h2>
+
+<h3>a. Informasi Akun</h3>
+<ul>
+    <li>Nama lengkap</li>
+    <li>Alamat email</li>
+    <li>Nomor telepon</li>
+    <li>Kata sandi (disimpan dalam bentuk terenkripsi melalui Firebase Authentication)</li>
+</ul>
+
+<h3>b. Data Lokasi (GPS)</h3>
+<div class="highlight">
+    <strong>Izin yang diperlukan:</strong> ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_BACKGROUND_LOCATION
+</div>
+<ul>
+    <li>Posisi GPS pengguna saat membuka halaman peta</li>
+    <li>Posisi GPS sopir secara realtime saat beroperasi</li>
+    <li>Data lokasi digunakan HANYA saat fitur pelacakan aktif</li>
+    <li>Data lokasi sopir dihentikan saat sopir menekan "Selesai Narik"</li>
+</ul>
+
+<div class="important">
+    <strong>⚠️ Pengungkapan Lokasi di Latar Belakang (Background Location):</strong><br><br>
+    Aplikasi ini mengumpulkan data lokasi di <strong>latar belakang (background)</strong> — yaitu saat aplikasi ditutup, tidak digunakan, atau layar HP mati — <strong>HANYA</strong> ketika sopir mengaktifkan fitur "Mulai Narik".<br><br>
+    <strong>Tujuan:</strong> Data lokasi background digunakan untuk menampilkan posisi angkot secara realtime kepada penumpang di peta, sehingga penumpang dapat melihat posisi angkot yang sedang beroperasi meskipun layar HP sopir dalam keadaan mati atau sopir membuka aplikasi lain.<br><br>
+    <strong>Penghentian:</strong> Pengumpulan lokasi background dihentikan secara otomatis saat sopir menekan "Selesai Narik". Data lokasi TIDAK dikumpulkan saat sopir tidak sedang beroperasi.<br><br>
+    <strong>Pengiriman Data:</strong> Data lokasi dikirim ke server Firebase (Google Cloud Platform) melalui koneksi HTTPS terenkripsi. Data lokasi <strong>TIDAK</strong> dijual, diperdagangkan, atau dibagikan kepada pihak ketiga selain Firebase/Google sebagai penyedia infrastruktur. Data lokasi <strong>TIDAK</strong> digunakan untuk keperluan iklan.
+</div>
+
+<h3>c. Data Kamera</h3>
+<div class="highlight">
+    <strong>Izin yang diperlukan:</strong> CAMERA
+</div>
+<ul>
+    <li>Foto wajah sopir diambil saat verifikasi sebelum mulai narik</li>
+    <li>Aplikasi hanya mendeteksi adanya wajah yang menghadap kamera (face detection) menggunakan Google ML Kit di perangkat</li>
+    <li>Aplikasi <strong>tidak</strong> melakukan pengenalan wajah (face recognition) dan <strong>tidak</strong> membuat data biometrik</li>
+    <li>Kamera hanya aktif saat proses verifikasi wajah</li>
+    <li>Foto verifikasi disimpan secara terenkripsi di Cloudinary</li>
+</ul>
+
+<h3>d. Data Notifikasi</h3>
+<div class="highlight">
+    <strong>Izin yang diperlukan:</strong> POST_NOTIFICATIONS
+</div>
+<ul>
+    <li>Token notifikasi push (Firebase Cloud Messaging)</li>
+    <li>Digunakan untuk mengirim pemberitahuan status pesanan</li>
+</ul>
+
+<h3>e. Data Penggunaan</h3>
+<ul>
+    <li>Log aktivitas dalam aplikasi (login, pesanan, penilaian)</li>
+    <li>Riwayat perjalanan dan pesanan</li>
+</ul>
+
+<!-- ═══════════════════════════════ -->
+<h2>2. Cara Kami Menggunakan Data</h2>
+
+<p>Data Anda digunakan untuk:</p>
+
+<table>
+    <tr>
+        <th>Tujuan</th>
+        <th>Penjelasan</th>
+    </tr>
+    <tr>
+        <td><strong>Layanan Peta</strong></td>
+        <td>Menampilkan posisi angkot secara realtime dan menghitung estimasi jarak serta waktu kedatangan</td>
+    </tr>
+    <tr>
+        <td><strong>Pelacakan Background</strong></td>
+        <td>Memungkinkan posisi angkot tetap terlihat oleh penumpang saat layar HP sopir mati atau aplikasi di latar belakang</td>
+    </tr>
+    <tr>
+        <td><strong>Keamanan</strong></td>
+        <td>Memastikan sopir menunjukkan wajah ke kamera (deteksi wajah) sebelum beroperasi</td>
+    </tr>
+    <tr>
+        <td><strong>Notifikasi</strong></td>
+        <td>Mengirimkan pemberitahuan status pesanan, kedatangan angkot, dan informasi penting</td>
+    </tr>
+    <tr>
+        <td><strong>Autentikasi</strong></td>
+        <td>Mengelola akun pengguna dan proses masuk/daftar</td>
+    </tr>
+    <tr>
+        <td><strong>Peningkatan Layanan</strong></td>
+        <td>Menganalisis penggunaan untuk meningkatkan kualitas aplikasi</td>
+    </tr>
+</table>
+
+<!-- ═══════════════════════════════ -->
+<h2>3. Wilayah Layanan</h2>
+
+<p>Aplikasi AngkotKita beroperasi <strong>khusus di wilayah Kabupaten Sidoarjo, Jawa Timur</strong>, mengikuti rute angkot Lyn Kuning:</p>
+
+<div class="highlight">
+    <strong>Rute Angkot Lyn Kuning Sidoarjo:</strong><br>
+    Pasar Tulangan → Ramayana Sidoarjo (dan sebaliknya)
+</div>
+
+<ul>
+    <li>Saat penumpang memesan angkot, aplikasi membandingkan posisi GPS penumpang dengan titik-titik rute angkot</li>
+    <li>Jika posisi penumpang berada <strong>di luar rute</strong>, aplikasi menampilkan peringatan bahwa wilayah tidak terdeteksi di rute angkot Sidoarjo</li>
+    <li>Penumpang tetap dapat melanjutkan pemesanan</li>
+    <li>Pengecekan wilayah dilakukan di perangkat; hasil pengecekan tidak disimpan ke server</li>
+</ul>
+
+<!-- ═══════════════════════════════ -->
+<h2>4. Penyimpanan dan Keamanan Data</h2>
+
+<ul>
+    <li>Data disimpan di server <strong>Firebase (Google Cloud Platform)</strong> dengan standar keamanan industri</li>
+    <li>Kata sandi dienkripsi menggunakan Firebase Authentication</li>
+    <li>Data lokasi hanya disimpan selama sesi aktif dan dihapus setelah sesi berakhir</li>
+    <li>Foto verifikasi wajah disimpan secara terenkripsi di <strong>Cloudinary</strong></li>
+    <li>Komunikasi antara aplikasi dan server menggunakan <strong>HTTPS</strong> (Transport Layer Security)</li>
+</ul>
+
+<!-- ═══════════════════════════════ -->
+<h2>5. Berbagi Data dengan Pihak Ketiga</h2>
+
+<p>Kami <strong>TIDAK</strong> menjual, memperdagangkan, atau menyewakan data pribadi Anda kepada pihak ketiga.</p>
+
+<p>Data Anda mungkin dibagikan dengan penyedia layanan berikut <strong>sebatas yang diperlukan</strong> untuk operasional aplikasi:</p>
+
+<table>
+    <tr>
+        <th>Pihak Ketiga</th>
+        <th>Data yang Dibagikan</th>
+        <th>Tujuan</th>
+    </tr>
+    <tr>
+        <td><strong>Firebase / Google Cloud Platform</strong></td>
+        <td>Data lokasi, data akun, token notifikasi</td>
+        <td>Infrastruktur backend (autentikasi, database Firestore, notifikasi push via Firebase Cloud Messaging)</td>
+    </tr>
+    <tr>
+        <td><strong>Cloudinary</strong></td>
+        <td>Foto verifikasi wajah (terenkripsi)</td>
+        <td>Penyimpanan foto verifikasi wajah sopir secara terenkripsi</td>
+    </tr>
+    <tr>
+        <td><strong>Penegak Hukum</strong></td>
+        <td>Sesuai permintaan resmi</td>
+        <td>Jika diwajibkan oleh hukum atau perintah pengadilan yang berlaku di Indonesia</td>
+    </tr>
+</table>
+
+<div class="warning">
+    <strong>Penting:</strong> Data lokasi TIDAK digunakan untuk iklan, profiling, atau tujuan komersial lainnya. Data TIDAK dibagikan kepada jaringan iklan, broker data, atau pihak ketiga lainnya.
+</div>
+
+<!-- ═══════════════════════════════ -->
+<h2>6. Hak Pengguna</h2>
+
+<p>Anda memiliki hak untuk:</p>
+<ul>
+    <li><strong>Mengakses data:</strong> Melihat data pribadi yang kami simpan tentang Anda</li>
+    <li><strong>Mengoreksi data:</strong> Memperbarui informasi akun Anda</li>
+    <li><strong>Menghapus data:</strong> Meminta penghapusan akun dan seluruh data terkait dengan menghubungi kami melalui email</li>
+    <li><strong>Mencabut izin:</strong> Menonaktifkan izin lokasi, kamera, atau notifikasi melalui Pengaturan Android &gt; Aplikasi &gt; AngkotKita</li>
+    <li><strong>Menarik persetujuan:</strong> Anda dapat menarik persetujuan penggunaan data kapan saja</li>
+</ul>
+
+<!-- ═══════════════════════════════ -->
+<h2>7. Retensi Data</h2>
+
+<ul>
+    <li>Data akun disimpan selama akun aktif</li>
+    <li>Data lokasi sopir dihapus secara otomatis setelah sesi operasional berakhir (sopir menekan "Selesai Narik")</li>
+    <li>Riwayat pesanan disimpan untuk referensi pengguna</li>
+    <li>Setelah permintaan penghapusan akun, semua data pribadi dihapus dalam waktu <strong>30 hari kerja</strong></li>
+    <li>Data yang diperlukan untuk keperluan hukum dapat disimpan lebih lama sesuai ketentuan peraturan perundang-undangan yang berlaku</li>
+</ul>
+
+
+<!-- ═══════════════════════════════ -->
+<h2>8. Anak-anak</h2>
+
+<p>Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak secara sengaja mengumpulkan data dari anak-anak. Jika kami mengetahui bahwa kami telah mengumpulkan data dari anak di bawah 13 tahun, kami akan menghapus data tersebut sesegera mungkin.</p>
+
+<!-- ═══════════════════════════════ -->
+<h2>9. Perubahan Kebijakan</h2>
+
+<p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diumumkan melalui aplikasi dan halaman ini. Penggunaan berkelanjutan setelah perubahan berarti Anda menyetujui kebijakan yang diperbarui.</p>
+
+<!-- ═══════════════════════════════ -->
+<h2>10. Hubungi Kami</h2>
+
+<p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau ingin menggunakan hak Anda terkait data pribadi, silakan hubungi kami:</p>
+
+<div class="contact-box">
+    <p><strong>Pengembang:</strong> Reza Mandala Putra</p>
+    <p><strong>Email:</strong> <a href="mailto:adminangkotkita@gmail.com">adminangkotkita@gmail.com</a></p>
+    <p><strong>Aplikasi:</strong> AngkotKita — Sistem Pemesanan Angkutan Kota Sidoarjo</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 AngkotKita — Sidoarjo. Seluruh hak cipta dilindungi.</p>
+    <p style="margin-top: 4px;">Halaman ini merupakan Kebijakan Privasi resmi aplikasi AngkotKita.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
